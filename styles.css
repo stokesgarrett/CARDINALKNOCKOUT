@@ -1,0 +1,323 @@
+#my-div1 {
+  background: rgb(200, 20, 15, 0.5);
+  width: 1600px;
+  height: 600px;
+  margin-left: -10px;
+}
+#my-div2 {
+  
+  background: rgba(201, 21, 10, 0.5);
+  width: 1600px;
+  height: 500px;
+  margin-left: -10px;
+}
+#my-div3 {
+  
+  background: rgb(202, 22, 20, 0.5);
+  width: 1600px;
+  height: 500px;
+  margin-left: -10px;
+}
+#my-div4 {
+  
+  background: rgba(199, 19, 0, 0.5);
+  width: 1600px;
+  height: 700px;
+  margin-left: -10px;
+}
+
+ul
+{
+    width: 100%;
+    height: 13%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(209, 20, 20);
+    opacity: 1;
+    border: 5px solid black
+  
+    
+
+}
+
+ /*this rule defines the elements to alight to the left*/
+li
+{
+    float:right;
+
+}
+/*this rule is to set the border in the navigation bar*/
+li:last-child
+{
+    border: none;
+}
+
+/*to display the hover color as blue and text color as white*/
+
+li a:hover 
+{
+    color:whitesmoke;
+    
+
+}
+/* sets spacing between tabs*/
+li a 
+{
+  display:block;
+  text-align: center;
+  padding: 35px;
+  padding-left: 35px;
+  padding-right: 65px;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+/* body {
+    
+    background-image:url("C:/Users/garrs/OneDrive/Documents/GitHub/First-Repository/CARDINALGAME/images/cardinalf.jpg");
+    background-repeat:no-repeat;
+    background-position: 50%;
+    margin-bottom: 10%;
+  }
+*/
+/*body {
+    
+  background-image:url("C:/Users/garrs/OneDrive/Documents/GitHub/First-Repository/CARDINALGAME/images/finfin3.jpg");
+  background-image:url("C:/Users/garrs/OneDrive/Documents/GitHub/First-Repository/CARDINALGAME/images/cardinalf.jpg");
+  background-repeat:no-repeat;
+  background-position: 95%;
+  margin-bottom: -12%; 
+}
+*/
+
+  #textheading {
+    background-color: rgb(209, 20, 20); /* set the background color to your desired color */
+    padding: 10px; /* optional: add padding to give some spacing around the text */
+    border: 5px solid black
+  }
+  
+  h1
+  {
+    font-size: 40px;
+    font-weight: none;
+  text-align: center;
+  text-transform: initial;
+  color:black;
+  max-width: 45%;
+  }
+  h2
+  {
+    font-size: 40px;
+  text-align: inherit;
+  text-transform: initial;
+  color:black;
+  display: block;
+  margin-top: 4.0em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bolder;
+  }
+  h3
+  {
+    width: 40%;
+  display: block;
+  font-size: 30px;
+  text-align: left;
+  text-transform: initial;
+  color:  black;
+  font-weight: bold;
+  }
+  h4
+  {
+    width: 50%;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    text-transform: initial;
+    color:  black;
+    font-weight: bold;
+  }
+  h5
+  {
+    width: 50%;
+  display: block;
+  font-size: 15px;
+  text-align: left;
+  text-transform: initial;
+  color: plum;
+  }
+  
+  #buttonheading {
+    background-color: rgb(209, 20, 20); /* set the background color to your desired color */
+    padding: 10px; /* optional: add padding to give some spacing around the text */
+    border: 5px solid black
+  }
+  .nextp {
+    position: fixed;
+    width: 200px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    text-transform: initial;
+    text-align: center;
+    font-weight: bolder;
+  
+  }
+  .round {
+    border-radius: 50%;
+  }
+  @keyframes fade-inlr {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .fade-in3 {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  .fade-in6 {
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+    
+  }
+  .fade-in9 {
+    animation: fadeIn ease 9s;
+    -webkit-animation: fadeIn ease 9s;
+    -moz-animation: fadeIn ease 9s;
+    -o-animation: fadeIn ease 9s;
+    -ms-animation: fadeIn ease 9s;
+  }
+  .fade-in12 {
+    animation: fadeIn ease 12s;
+    -webkit-animation: fadeIn ease 12s;
+    -moz-animation: fadeIn ease 12s;
+    -o-animation: fadeIn ease 12s;
+    -ms-animation: fadeIn ease 12s;
+  }
+  .fade-in15 {
+    animation: fadeIn ease 15s;
+    -webkit-animation: fadeIn ease 15s;
+    -moz-animation: fadeIn ease 15s;
+    -o-animation: fadeIn ease 15s;
+    -ms-animation: fadeIn ease 15s;
+  }.fade-in3 {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  .fade-in6 {
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+  }
+  .fade-in9 {
+    animation: fadeIn ease 9s;
+    -webkit-animation: fadeIn ease 9s;
+    -moz-animation: fadeIn ease 9s;
+    -o-animation: fadeIn ease 9s;
+    -ms-animation: fadeIn ease 9s;
+  }
+  .fade-in12 {
+    animation: fadeIn ease 12s;
+    -webkit-animation: fadeIn ease 12s;
+    -moz-animation: fadeIn ease 12s;
+    -o-animation: fadeIn ease 12s;
+    -ms-animation: fadeIn ease 12s;
+  }
+  .fade-in15 {
+    animation: fadeIn ease 15s;
+    -webkit-animation: fadeIn ease 15s;
+    -moz-animation: fadeIn ease 15s;
+    -o-animation: fadeIn ease 15s;
+    -ms-animation: fadeIn ease 15s;
+  }
+  .fade-in18 {
+    animation: fadeIn ease 18s;
+    -webkit-animation: fadeIn ease 18s;
+    -moz-animation: fadeIn ease 18s;
+    -o-animation: fadeIn ease 18s;
+    -ms-animation: fadeIn ease 18s;
+  }
+  .fade-in21 {
+    animation: fadeIn ease 21s;
+    -webkit-animation: fadeIn ease 21s;
+    -moz-animation: fadeIn ease 21s;
+    -o-animation: fadeIn ease 21s;
+    -ms-animation: fadeIn ease 21s;
+  }
+  .fade-in24 {
+    animation: fadeIn ease 24s;
+    -webkit-animation: fadeIn ease 24s;
+    -moz-animation: fadeIn ease 24s;
+    -o-animation: fadeIn ease 24s;
+    -ms-animation: fadeIn ease 24s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
