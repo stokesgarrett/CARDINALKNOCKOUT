@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <style>
+      body {
+        overflow-y: auto;
+        overflow-x: hidden; /* Add this line */
+    }
+
+    .container {
+        max-width: 100%;
+    }
+  
+    </style>
+    <link rel='stylesheet' href='styles.css'>
+  <head>
+    <title>stokesgarrett.github.io</title>
+    <ul style = "position:absolute; left:0px; top:0px;">
+      <li><a class="active" href="#my-div3">RULES</a> </li>
+      <li><a class="active" href="#my-div2">HOW TO PLAY</a> </li>
+      <li><a class="active" href="#my-div1">ABOUT</a></li>
+      <li><img src = "images/uiwlogo2.png" style = "position:absolute;width:10%; margin-top:5px; margin-left:-900px;"><li></li>
+      </ul>
+  </head>
+  
+  <body> 
+    <div class="fade-in6">
+      <div id="my-div4" style="margin-top: 99px;position:absolute;"> 
+      <h2 style= "position:absolute; left:90px; top:-100px; animation: fade-inlr 2s forwards;"id="textheading">WELCOME TO CARDINAL KNOCKOUT! </h2>
+      <h3 style= "position:absolute; left:95px; top:125px; animation: fade-inlr 3s forwards;"> Other birds are attacking our nest, and we need your help to fend them off... </h3>
+      <h3 style= "position:absolute; left:95px; top:220px; animation: fade-inlr 4s forwards;">Answer Cybersecurity related questions, complete three rounds flawlessly and recieve a 20% off coupon for your next purchase at Cane's </h3>
+      <img src="images/newcard.png" style = "position:absolute; left:900px; top:10px; height: 550px; animation: fade-inlr 3s forwards;";>
+      <a href="gamepage.html" class="nextp" style= "position:absolute;left:90px; top:400px;animation: fade-inlr 5s forwards"id="buttonheading"> LETS PLAY &RightTriangle;</a>
+    </div></div>
+    <div class="fade-in12">
+    <div id="my-div1" style="margin-top: 799px;position:absolute;">    
+      <h1 style= "position:absolute; left:900px; top:20px; animation: fade-inlr 3s forwards;"id="textheading"> ABOUT </h1>
+      <h4 style= "position:absolute; left:600px; top:110px; animation: fade-inlr 4s forwards;"> As part of our Cyber-Security training program here at UIW, Cardinal Knockout was created by our own
+         Cyber-Security students here at the university. The purpose of Cardinal Knockout is to help test and improve your cyber knowledge. In today's age, cyber-attacks are becoming more and more 
+         prevalent, and it is important to have a good grasp of possible attacks in order to stay safe. No matter what field you dabble in, there is always a cyber-security aspect involved, and your 
+         information deserves to be protected!</h4>
+         <img src="images/nicecard.png" style = "position:absolute; left:-60px; top:-20px; animation: fade-inlr 4s forwards;">
+    </div></div>
+    <div class="fade-in12">
+    <div id="my-div2" style="margin-top: 1399px;position:absolute;"> 
+      <h1 style= "position:absolute; left:360px; top:20px; animation: fade-inlr 3s forwards;"id="textheading">HOW TO PLAY</h1>
+      <h4 style= "position:absolute; left:100px; top:110px; animation: fade-inlr 4s forwards;"> To play Cardinal Knockout, Simply click on the "Let's Play" at the top of the page, and you can begin
+        playing the game. Only UIW students and Employees are eligible to recieve coupon rewards. The game can be played from your desktop, laptop, or mobile device.</h4>
+        <img src="images/flyingcard.png" style = "position:absolute; right:100px; top:-20px; animation: fade-inlr 4s forwards;">
+    </div></div>
+    <div class="fade-in12">
+      <div id="my-div3" style="margin-top: 1899px;position:absolute;"> 
+      <h1 style= "position:absolute; left:900px; top:20px; animation: fade-inlr 3s forwards;"id="textheading">RULES</h1>
+          <h4 style= "position:absolute; left:575px; top:110px; animation: fade-inlr 4s forwards;"> To play Cardinal Knockout, Simply click on the "Let's Play" at the top of the page, and you can begin
+            playing the game. Only UIW students and Employees are eligible to recieve coupon rewards. The game can be played from your desktop, laptop, or mobile device.</h4>
+            <img src="images/fatcard.png" style = "position:absolute; left:100px; top:50px;  animation: fade-inlr 4s forwards;">
+      </div></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      // Smooth scroll to the target div when a link is clicked
+      $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+            scrollTop: target.offset().top
+          }, 1000);
+        }
+      });
+    });
+  </script>      
+  </body>
+  </html>
+  
