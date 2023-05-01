@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cardinal Knockout!</title>
+    <link rel='stylesheet' href='gamestyle.css'>
+</head>
+<body>
+  <script src="ultimatescript.js" defer></script>
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+  <div class="container" style= "animation: fade-inlr 5s forwards">
+    <h1>Cardinal Knockout!</h1>
+    <div id="questionContainer">
+      <p class="question"></p>
+      <div class="options">
+        <label class="option"><input type="radio" name="answer" value="option1"> Option 1</label>
+        <label class="option"><input type="radio" name="answer" value="option2"> Option 2</label>
+        <label class="option"><input type="radio" name="answer" value="option3"> Option 3</label>
+        <label class="option"><input type="radio" name="answer" value="option4"> Option 4</label>
+      </div>
+      <div class="button-container">
+        <button onclick="checkAnswer()" style="font-size: 24px; padding: 8px 18px;font-family: fantasy;background-color:red;border: 5px solid black">Submit</button>
+      </div>
+    </div>
+    <p id="result" class="result"></p>
+  </div>
+  <a href="mainpage.html" class="nextp" style= "position:absolute;left:0px; top:684px;animation: fade-inlr 5s forwards"id="buttonheading">BACK TO HOME&RightTriangle;</a>
+</body>
+</html>
